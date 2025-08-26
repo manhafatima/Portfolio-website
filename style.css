@@ -1,0 +1,75 @@
+html {
+  height: 110%;
+  width: 100%;
+}
+
+/* Remove default blue color from links */
+a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Uses the same color as parent element */
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fefae0
+  /* Optional: adds underline on hover */
+}
+
+.nav_bar {
+  font-family: "Poppins";
+  font-size:25px; 
+  color: #f5ebe0;
+  background-color:#fd7c90;
+  text-align:center;
+}
+
+.home_page_body {
+  background-color: #85394F;
+  color: #FCB1A6;
+  text-align: justify;
+  font-size: medium;
+  font-family: "Poppins";
+}
+
+.home_page_heading {
+  text-align: center; 
+  color: #FCB1A6; 
+  font-size: 60px;
+  font-family: "Poppins";
+}
+
+.home_page_p {
+  color: #FFDCCC;
+  font-size: 28px;
+}
+
+img {
+  border-radius: 200px;
+  max-width: 200px;
+}
+
+img:hover{
+  border-radius:20px;
+  max-width:200px;
+}
+
+main {
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:25px;
+  margin-right:25px;
+}
+
+.nav_bar_ul {
+  list-style-type: none;
+  background-color: #fd7c90;
+  padding:10px;
+}
+
+.nav_bar_list {
+  display: inline;
+  a {
+    padding:10px;
+    text-align: center;
+  }
+}
