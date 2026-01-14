@@ -1,2 +1,2 @@
-# Portfolio-website
-My portfolio website that I've built from scratch. 
+# Personal-website
+My personal website that I've built from scratch. 
