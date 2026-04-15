@@ -1,102 +1,103 @@
-  <!DOCTYPE html>
-  <html>
-    <head>
-
-      <title>My personal Website</title>
-      <meta charset="utf-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-      <!-- link the webpage's stylesheet -->
-      <link rel="stylesheet" href="style.css">
-
-      <!-- link the webpage's JavaScript file -->
-      <script src="/script.js" defer></script>
-
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
-
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Poppins:wght@300;500;600;700;800&display=swap" rel="stylesheet">
-
-    </head>
-  
-    <nav class="nav_bar">
-      
-      <ul class="nav_bar_ul">
-        
-        <li class=nav_bar_list>
-          <a href = "Interests.html">HOBBIES/INTERESTS</a>
-        </li>
-        <li class=nav_bar_list>
-          <a href = "Portfolio.html">PORTFOLIO</a>
-        </li>
-        
-      </ul>
-    </nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     
-    <body class="home_page_body">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rochester&display=swap" rel="stylesheet">
 
-      <p class="home_page_heading" ><b>~ WELCOME TO MY HOME PAGE!! ~ </b></p>
+</head>
+<body>
 
-      <p class="home_page_p">
+    <div class="navbar">
+        <a class="nav-elements" href="#my-section">HOME</a>
+        <a class="nav-elements" href="#education">EDU</a>
+        <a class="nav-elements" href="#experience">EXPERIENCE</a>
+        <a class="nav-elements" href="#connect">CONTACT</a>
+    </div>
+
+    <div class="my-section" id="my-section">
+
+        <img class="my-photo" src="MyPhoto.png">
         
-        A lil bit about me ~ 🩷🩷
-        
-      </p>
 
-    <main>
+        <div class="my-intro">
+            <h2>Hello World!</h2>
+            <p>I’m a computer science student with a growing passion for building things through code. I’m currently focused on learning JavaScript and strengthening my fundamentals as I work toward becoming a software engineer. I enjoy problem-solving, exploring new technologies, and turning ideas into real, functional projects.</p>
+        </div>
 
-      <p class="home_page_p">
-        
-I am Manha...I started my coding journey in freshman year of highschool, when I learned more about the programming language 'Python'. Eversince that, I was fascinated by how
-programming works. I took another Python class last year, in which I learned Python turtle graphics and some more advanced concepts like different types of data structures 
-such as lists, tuples, dictionaries, etc. I've included many of my projects from that class in my "Portfolio" page...So do check that out!
+    </div>
 
-      </p>
-    </main>
-    
+    <div class="education" id="education">
+        <div class="education-description">
+            <h1>Bachelor of Science<h1>
+            <p>Major: Computer Science</p>
+            <p>Minor: Data Science</p>
+            <p>GPA: 3.9</p>
+            <p>Activities & Societies: Girls Who Code, Computing Club, Computer Networking - Cybersecurity Club</p>
+            <p>Graduation Year: 2029</p>
+        </div>
+        <img src="MSU_2.jpg">
+    </div>
 
-      <p style = "font-size: 25px; color: #FCB1A6; font-family:Ovo;">
-        I have made this website into <i><b><u>three</u></b></i> parts:
-        <ol>
-          
+    <div class="experience" id="experience">
 
-          <style>
-            ol {
-              color: #FCB1A6;
-              font-size: 25px;
-              font-family:"Ovo";
-            }
-          </style>
-            
-            <li>
-              A <i><b><u> <a href = index.html>home</a></u></b></i> page (this one)
-            </li>
-  
-            <li>
-                A <i><b><u><a href = Portfolio.html>portfolio</a></u></b></i> page: Check                   out many of my cool projects!
-            </li>
-  
-            <li>
-              A <i><b><u><a href = Interests.html>hobbies/interests</a></u></b></i> page:                Learn more about what I like doing in my free time, and what I'm                       interested in!
-            </li>
+        <div class="mckinsey-section">
+            <div class="mckinsey-content">
+                <h2>Forward Scholar</h2>
+                <ul>
+                    <li> Completing a 10-week global virtual program focused on core professional skills
+                    </li>
+                    <li> Strengthening problem-solving, communication, and relationship-building skills.
+                    </li>
+                    <li> Engaging in interactive, case-based learning with real-world applications
+                    </li>
+                    <li> Working alongside a diverse cohort from 130+ countries and industries</li>
+                </ul>
+            </div>
+            <img src="mckinsey.jpg" alt="logo of mckinsey.org">
+        </div>
 
-            
-          </ol>
+        <div class="codepath-section">
+            <div class="codepath-content">
+                <h2>TIP 101 & WEB 101 Scholar</h2>
+                <ul>
+                    <li> Solving data structure problems commonly used in technical interviews.</li>
+                    <li>Communicating technical ideas clearly while working through coding problems with peers. </li>
+                    <li>Applying HTML, CSS, and JavaScript to create responsive, interactive websites.</li>
+                    <li>Receiving mentorship and guidance from industry engineers.</li>
+                </ul>
+            </div>
+            <img src="codepath.jpg" alt="logo of codepath">
+        </div>
 
-        </p>
+        <div class="csam-section">
+            <div class="csam-content">
+                <h2>Summer Accelerator Program Participant</h2>
+                <ul>
+                    <li>Developed foundational knowledge in Artificial Intelligence (AI) and Machine Learning (ML), including core concepts of model training.</li>
+                    <li>Analyzed core CS fundamentals like data encoding, focusing on RGB and binary data representation for digital imaging.</li>
+                    <li>Collaborated with a team to build and present an interactive website created with the assistance of an AI model.</li>
+                    <li>Engaged with CSAM faculty, peers, and alumni to explore research and career opportunities in CS</li>
+                </ul>
+            </div>
+            <img src="csam.jpg" alt="logo of codepath">
+        </div>        
 
-      <style>
-        body {
-          margin-bottom:30%;
-        }
-      </style>
+    </div>
 
-    </body>
-  </html>
+    <div class="connect" id="connect">
+        <h2>Connect with me!</h2>
+        <div class="connect-content">
+            <a href="www.linkedin.com/in/manha-fatima">LinkedIn</a>
+            <a href="https://github.com/manhafatima">GitHub</a>
+        </div>
+    </div>
 
-
-    
+    <script src="script.js" defer></script>
+</body>
+</html>
