@@ -1,75 +1,154 @@
-html {
-  height: 110%;
-  width: 100%;
+body, html {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fdfdf5;
+    font-family: "Google Sans";
+    scroll-behavior: smooth;
 }
 
-/* Remove default blue color from links */
-a {
-  text-decoration: none; /* Removes underline */
-  color: inherit; /* Uses the same color as parent element */
+h1,h2 {
+    margin: 0;
 }
 
-a:hover {
-  text-decoration: underline;
-  color: #fefae0
-  /* Optional: adds underline on hover */
+.navbar {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 25px;
+    border-bottom: 1px solid rgb(221, 220, 220);
+    background-color: rgb(1, 41, 1);
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+
 }
 
-.nav_bar {
-  font-family: "Poppins";
-  font-size:25px; 
-  color: #f5ebe0;
-  background-color:#fd7c90;
-  text-align:center;
+.nav-elements {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
 }
 
-.home_page_body {
-  background-color: #85394F;
-  color: #FCB1A6;
-  text-align: justify;
-  font-size: medium;
-  font-family: "Poppins";
+.nav-elements:hover{
+    color: rgb(138, 221, 13);
 }
 
-.home_page_heading {
-  text-align: center; 
-  color: #FCB1A6; 
-  font-size: 60px;
-  font-family: "Poppins";
+.my-section {
+    display: flex;
+    gap: 100px;
+    padding: 300px 150px 500px 125px;
+    justify-content: flex-start;
+    font-family: "Outfit";
+    border-bottom: 1px solid rgb(221, 220, 220);
 }
 
-.home_page_p {
-  color: #FFDCCC;
-  font-size: 28px;
+.my-photo {
+    height: 500px;
+    border-radius: 30px;
 }
 
-img {
-  border-radius: 200px;
-  max-width: 200px;
+.my-intro {
+    padding: 20px;
 }
 
-img:hover{
-  border-radius:20px;
-  max-width:200px;
+.my-intro h2 {
+    margin: 0;
+    font-size: 90px;
+    color: rgb(62, 79, 32);
 }
 
-main {
-  margin-top:0;
-  margin-bottom:0;
-  margin-left:25px;
-  margin-right:25px;
+.my-intro p {
+    font-size: 25px;
+    font-weight: 150;
 }
 
-.nav_bar_ul {
-  list-style-type: none;
-  background-color: #fd7c90;
-  padding:10px;
+.education {
+    display: flex;
+    gap: 60px;
+    padding: 200px 30px 200px 125px;
+    border-bottom: 1px solid rgb(221, 220, 220);
 }
 
-.nav_bar_list {
-  display: inline;
-  a {
-    padding:10px;
-    text-align: center;
-  }
+.education img {
+    width: 50%;
+    border-radius: 20px;
 }
+
+.education-description p {
+    font-size: 25px;
+    font-weight: 250;
+    font-family: Poppins;
+}
+
+.education-description h1 {
+    font-size: 60px;
+    margin: 5;
+}
+
+.experience img {
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+}
+
+.experience h2 {
+    font-size: 45px;
+}
+
+.experience li {
+    font-size: 20px;
+}
+
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex: 1 1 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.118);
+    padding: 200px 0px 200px 0px;
+}
+
+.codepath-section,
+.mckinsey-section,
+.csam-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 50px 0px 50px 100px;
+    gap: 100px;
+}
+
+.mckinsey-content,
+.codepath-content,
+.csam-content {
+    width: 900px;
+}
+
+.connect {
+    padding: 80px 30px 100px 70px;
+}
+
+.connect h2 {
+    font-size: 60px;
+    margin: 5;
+}
+
+.connect-content {
+    padding: 30px 30px 30px 20px;
+}
+
+.connect a {
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: darkgreen;
+}
+
+.connect a:hover {
+    color: rgb(4, 121, 4);
+    text-decoration: underline;
+}
+
+
